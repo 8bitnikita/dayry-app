@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  .Content {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1345px) {
+  .container {
+    max-width: 600px;
+    padding-right: 30px;
+
+    .Content {
+      max-width: 550px;
+      flex-direction: column;
+    }
+  }
+}
